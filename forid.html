@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Forid Ahmed's Personal Website</title>
+
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <style>
+
+        body {
+
+            font-family: Arial, sans-serif;
+
+            margin: 0;
+
+            padding: 0;
+
+            background-color: #f5f5f5;
+
+        }
+
+        header {
+
+            background-color: #333;
+
+            color: white;
+
+            text-align: center;
+
+            padding: 15px 0;
+
+        }
+
+        nav {
+
+            background-color: #333;
+
+        }
+
+        nav ul {
+
+            list-style-type: none;
+
+            padding: 0;
+
+            display: flex;
+
+            justify-content: center;
+
+            background-color: #333;
+
+        }
+
+        nav li {
+
+            margin: 0 10px;
+
+        }
+
+        nav a {
+
+            text-decoration: none;
+
+            color: white;
+
+            font-weight: bold;
+
+            transition: color 0.3s;
+
+            font-size: 14px;
+
+        }
+
+        nav a:hover {
+
+            color: #0073e6;
+
+        }
+
+        .content {
+
+            padding: 15px;
+
+        }
+
+        h2 {
+
+            background-color: #333;
+
+            color: white;
+
+            padding: 8px;
+
+            margin: 0;
+
+            font-size: 20px;
+
+        }
+
+        p {
+
+            line-height: 1.4;
+
+            font-size: 14px;
+
+        }
+
+        article {
+
+            border: 1px solid #ccc;
+
+            padding: 10px;
+
+            margin: 10px 0;
+
+            background-color: white;
+
+        }
+
+        .comments-section {
+
+            background-color: #f5f5f5;
+
+            padding: 10px;
+
+        }
+
+        .blog-interactions {
+
+            display: flex;
+
+            justify-content: space-between;
+
+            align-items: center;
+
+        }
+
+        .like-button,
+
+        .dislike-button,
+
+        .comment-button,
+
+        .share-button {
+
+            background-color: #0073e6;
+
+            color: white;
+
+            border: none;
+
+            padding: 4px 8px;
+
+            cursor: pointer;
+
+            transition: background-color 0.3s;
+
+            font-size: 12px;
+
+        }
+
+        .like-button:hover,
+
+        .dislike-button:hover,
+
+        .comment-button:hover,
+
+        .share-button:hover {
+
+            background-color: #005cbf;
+
+        }
+
+        .comment-input {
+
+            width: 100%;
+
+            padding: 5px;
+
+            margin: 10px 0;
+
+            font-size: 14px;
+
+        }
+
+        .add-comment-button {
+
+            background-color: #0073e6;
+
+            color: white;
+
+            border: none;
+
+            padding: 4px 8px;
+
+            cursor: pointer;
+
+            transition: background-color 0.3s;
+
+            font-size: 12px;
+
+        }
+
+        .add-comment-button:hover {
+
+            background-color: #005cbf;
+
+        }
+
+        footer {
+
+            text-align: center;
+
+            padding: 8px;
+
+            background-color: #333;
+
+            color: white;
+
+            margin-top: 10px;
+
+            font-size: 12px;
+
+        }
+
+        /* Additional CSS for styling your content goes here */
+
+        /* Example styles: */
+
+        .content {
+
+            max-width: 800px;
+
+            margin: 0 auto;
+
+        }
+
+        h1 {
+
+            font-size: 24px;
+
+        }
+
+        .likes-count,
+
+        .dislikes-count {
+
+            font-weight: bold;
+
+        }
+
+        .comments-section h4 {
+
+            margin-top: 15px;
+
+            font-size: 18px;
+
+            font-weight: bold;
+
+        }
+
+
+        /* Updated CSS for skills */
+
+        #skills {
+
+            border: 1px solid #ccc;
+
+            padding: 10px;
+
+            background-color: white;
+
+        }
+
+        .skills-list {
+
+            list-style-type: disc;
+
+            margin-left: 20px;
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+
+        <h1>Welcome to My Personal Website 
+        
+    
+    </h1>
+
+    </header>
+
+
+    <nav>
+
+        <ul>
+
+            <li><a href="#profile">Profile</a></li>
+
+            <li><a href="#education">Education</a></li>
+
+            <li><a href="#skills">Skills and Learning</a></li>
+
+            <li><a href="#blog">Blog</a></li>
+
+            <li><a href="#contact">Contact</a></li>
+
+        </ul>
+
+    </nav>
+
+
+    <div class="content">
+
+        <h2>About Me</h2>
+
+        <p>Assalamualaikum and welcome to my personal website. I'm Forid Ahmed, and I'm excited to share my journey, skills, and insights with you.</p>
+
+        
+
+        <section id="profile">
+
+            <h2>Profile</h2>
+
+            <p>Name: Forid Ahmed</p>
+
+            <p>Birth: February 2, 2004</p>
+
+            <p>Religion: Islam</p>
+
+            <p>Country: Bangladesh</p>
+
+            <p>Present Location: Mymensingh</p>
+
+            <p>Relationship Status: Single</p>
+
+        </section>
+
+
+        <section id="education">
+
+            <h2>Education</h2>
+
+            <p>School: Latu Mondol High School</p>
+
+            <p>Institute: Diploma in Civil Engineering</p>
+
+          
+
+        </section>
+
+
+        <section id="skills">
+
+            <h2>Skills and Learning</h2>
+
+            <ul class="skills-list">
+
+                <li>Basic Programming</li>
+
+                <li>Engineering</li>
+
+                <li>Blog Writing</li>
+
+                <li>Communication</li>
+
+                <!-- Add more skills as needed -->
+
+            </ul>
+
+        </section>
+
+
+        
+                        <!-- Comments for the third post (You can add comments here) -->
+
+                    </ul>
+
+                    <textarea class="comment-input" placeholder="Add a comment"></textarea>
+
+                    <button class="add-comment-button" onclick="addComment(3)">Add Comment</button>
+
+                </div>
+
+            </article>
+            <!-- Add more articles with similar structures for additional blog posts -->
+
+        </section>
+
+        
+
+        <section id="contact">
+
+            <h2>Contact</h2>
+
+            <p>Feel free to reach out:</p>
+
+            <ul>
+
+                <li><a href="https://www.facebook.com/profile.php?id=100029673194176">Facebook</a></li>
+
+                <li><a href="mailto:foridahmed380@gmail.com">Gmail</a></li>
+
+                <li>Phone Number: 01308039178</li>
+
+            </ul>
+
+        </section>
+
+    </div>
+
+
+    <footer>
+
+        <p>&copy; 2023 Forid Ahmed's Personal Website</p>
+
+    </footer>
+
+
+    <script>
+
+        let likesCount = 0;
+
+        let dislikesCount = 0;
+
+        function likePost(postId) {
+
+            likesCount++;
+
+            document.getElementById('like-count-' + postId).textContent = likesCount + ' Likes';
+
+        }
+
+        function dislikePost(postId) {
+
+            dislikesCount++;
+
+            document.getElementById('dislike-count-' + postId).textContent = dislikesCount + ' Dislikes';
+
+        }
+
+        // You can add JavaScript functions for handling comments and views here.
+
+    </script>
+
+</body>
+
+</html>
+
+
